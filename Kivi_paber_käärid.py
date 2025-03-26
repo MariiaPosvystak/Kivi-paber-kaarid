@@ -101,7 +101,7 @@ if game == 'jah':
 
             print(f"Счет: {player1} - {player1_point}, {player2} - {player2_point}")
 
-            # Добавим возможность выхода из игры
+            # Выход из игры
             exit_game = input("Kas soovite mängu jätkata? (jah/ei): ").strip().lower()
             if exit_game != "jah":
                 break
